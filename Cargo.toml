@@ -1,0 +1,6 @@
+[package]
+name = "diana-recursion"
+version = "0.1.0"
+authors = ["rustomax"]
+
+[dependencies]
