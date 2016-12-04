@@ -2,7 +2,7 @@
 
 // print_digits() function calls itself
 fn print_digits(square_size: i32, digit_type: i32) {
-    if square_size > 0 {
+    if square_size != 0 {
         print!("{} ", digit_type);
         print_digits(square_size - 1, digit_type);
     }
