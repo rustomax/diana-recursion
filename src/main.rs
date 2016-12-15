@@ -8,7 +8,7 @@ fn print_digits(square_size: i32, digit_type: i32) {
     }
 }
 
-// print_square() function is recursive too
+// print_square() function is also recursive
 fn print_square(square_size: i32, left_zeros: i32, middle_ones: i32, right_zeros: i32) {
     if square_size != 0 {
         print_digits(left_zeros, 0);
